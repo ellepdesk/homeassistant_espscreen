@@ -19,7 +19,7 @@ from core import HEADER_BUILTIN, HEADER_CONTENTS, HEADER_MAX_ITEMS, HEADER_MIN_F
 
 # Characters the top bar's text font carries on both boards (`sublabel_big` in the profiles;
 # tests/test_header_bar.py keeps them equal). Anything else folds to its base letter or goes.
-GLYPHS = frozenset("<>—&@!,.?\"%()+-_:°0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyzäöüÄÖÜß/…·'#*=;²³µéèëêïîóôàáâçñúû–")
+GLYPHS = frozenset("<>—&@!,.?\"%()+-_:°0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyzäöüÄÖÜß/…·'#*=;²³µμéèëêïîóôàáâçñúû–")
 TEXT_BYTES = 40
 MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 UNAVAILABLE = '—'
