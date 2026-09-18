@@ -105,7 +105,7 @@ substitutions:
 external_components:
   - source:
       type: git
-      url: https://github.com/MaxGramser/homeassistant_espscreen.git
+      url: https://github.com/ellepdesk/homeassistant_espscreen.git
       ref: main
       path: components
     refresh: 0s

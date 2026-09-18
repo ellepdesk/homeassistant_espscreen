@@ -3,7 +3,7 @@
 # The easy route generates a complete file of its own: ESP Screen Manager.
 packages:
   screen:
-    url: https://github.com/MaxGramser/homeassistant_espscreen
+    url: https://github.com/ellepsesk/homeassistant_espscreen
     ref: main
     files: [packages/guition.yaml]
     refresh: 0s
